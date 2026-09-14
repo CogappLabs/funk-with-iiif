@@ -2,7 +2,7 @@ name: Deploy to Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "live-iiif"]
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
@@ -21,25 +21,45 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout main
         uses: actions/checkout@v4
+        with:
+          ref: main
+          path: main
+
+      - name: Checkout live-iiif
+        uses: actions/checkout@v4
+        with:
+          ref: live-iiif
+          path: live
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
           cache: "npm"
+          cache-dependency-path: |
+            main/package-lock.json
+            live/package-lock.json
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Build main
+        working-directory: main
+        run: |
+          npm ci
+          npm run build -- --mode=gh
 
-      - name: Build the project
-        run: npm run build -- --mode=gh
+      # The second version is served alongside the first at /live/.
+      - name: Build live-iiif
+        working-directory: live
+        run: |
+          npm ci
+          npm run build -- --base=/funk-with-iiif/live/
+          mv dist ../main/dist/live
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./main/dist
 
   deploy:
     environment:
