@@ -1,0 +1,1313 @@
+[
+	{
+		"start": 9.15,
+		"end": 10.11,
+		"text": "Struttin' down the street",
+		"formattedText": "<span class=\"highlighted\">Struttin'</span> down the <span class=\"highlighted\">street</span>",
+		"images": [
+			{
+				"word": "Struttin'",
+				"artwork": {
+					"source": "aic",
+					"id": 103393,
+					"title": "Temple Strut Fragment with Boar God, Varaha",
+					"artist_display": "Nepal",
+					"image_id": "99c88f16-a730-8d3e-20cf-92a99a6d357a"
+				}
+			},
+			{
+				"word": "street",
+				"artwork": {
+					"source": "vam",
+					"id": "O139344",
+					"title": "Street scene",
+					"artist_display": "Jones, Calvert Richard (Rev.), ca.1848",
+					"iiif": "https://framemark.vam.ac.uk/collections/2010EJ6121",
+					"width": 1875,
+					"height": 2500
+				}
+			}
+		]
+	},
+	{
+		"start": 10.11,
+		"end": 10.77,
+		"text": "That's where we'll.",
+		"formattedText": "That's where we'll.",
+		"images": []
+	},
+	{
+		"start": 10.77,
+		"end": 11.19,
+		"text": "Meet.",
+		"formattedText": "Meet.",
+		"images": []
+	},
+	{
+		"start": 11.19,
+		"end": 12.19,
+		"text": "(oo-yeah!)",
+		"formattedText": "(oo-yeah!)",
+		"images": []
+	},
+	{
+		"start": 12.36,
+		"end": 13.36,
+		"text": "- (oo-yeah!) -",
+		"formattedText": "- (oo-yeah!) -",
+		"images": []
+	},
+	{
+		"start": 13.59,
+		"end": 14.04,
+		"text": "Checkin' out the scene",
+		"formattedText": "<span class=\"highlighted\">Checkin'</span> out the <span class=\"highlighted\">scene</span>",
+		"images": [
+			{
+				"word": "Checkin'",
+				"artwork": {
+					"source": "aic",
+					"id": 39897,
+					"title": "Checking His Love Trance, a Cup He Took Full Brimm'd",
+					"artist_display": "Will Hicock Low\nAmerican, 1853-1932",
+					"image_id": "07de0b1f-b18b-8d6f-00e8-0a7980835981"
+				}
+			},
+			{
+				"word": "scene",
+				"artwork": {
+					"source": "vam",
+					"id": "O1346663",
+					"title": "Captain Billy",
+					"artist_display": "Unknown, late 19th century",
+					"iiif": "https://framemark.vam.ac.uk/collections/2016JA2950",
+					"width": 2500,
+					"height": 1567
+				}
+			}
+		]
+	},
+	{
+		"start": 14.04,
+		"end": 15.99,
+		"text": "with that IIIF beat",
+		"formattedText": "with that IIIF <span class=\"highlighted\">beat</span>",
+		"images": [
+			{
+				"word": "beat",
+				"artwork": {
+					"source": "vam",
+					"id": "O238831",
+					"title": "The Beat",
+					"artist_display": "Unknown, 1978-1983",
+					"iiif": "https://framemark.vam.ac.uk/collections/2026PT8834",
+					"width": 768,
+					"height": 408
+				}
+			}
+		]
+	},
+	{
+		"start": 17.88,
+		"end": 21.39,
+		"text": "Four corners of the globe all coming into view.",
+		"formattedText": "Four <span class=\"highlighted\">corners</span> of the <span class=\"highlighted\">globe</span> all coming into view.",
+		"images": [
+			{
+				"word": "corners",
+				"artwork": {
+					"source": "aic",
+					"id": 75507,
+					"title": "Still Life: Corner of a Table",
+					"artist_display": "Henri Fantin-Latour (French, 1836–1904)",
+					"image_id": "85d05bad-1205-6de5-e75c-ec9113a626ab"
+				}
+			},
+			{
+				"word": "globe",
+				"artwork": {
+					"source": "vam",
+					"id": "O1125458",
+					"title": "Philips' Challenge Globe ",
+					"artist_display": "George Philip & Son Ltd, ca. 1960",
+					"iiif": "https://framemark.vam.ac.uk/collections/2023NJ4813",
+					"width": 579,
+					"height": 768
+				}
+			},
+			{
+				"word": "view",
+				"artwork": {
+					"source": "aic",
+					"id": 19,
+					"title": "View of Ponte Lugano on the Anio, from Views of Rome",
+					"artist_display": "Giovanni Battista Piranesi (Italian, 1720-1778)\npublished by Francesco (Italian, 1758-1810) and Pietro Piranesi (Italian, born 1758/9)",
+					"image_id": "7f5429b5-a966-ccbe-1ce3-7f131e96bf87"
+				}
+			}
+		]
+	},
+	{
+		"start": 22.32,
+		"end": 26.01,
+		"text": "One image, one time, showing me and you.",
+		"formattedText": "One image, one time, showing me and you.",
+		"images": [
+			{
+				"word": "image",
+				"artwork": {
+					"source": "vam",
+					"id": "O747145",
+					"title": "Woodcut",
+					"artist_display": "Selwyn Image, 1900-09",
+					"iiif": "https://framemark.vam.ac.uk/collections/2009BX2014",
+					"width": 1718,
+					"height": 2500
+				}
+			},
+			{
+				"word": "time",
+				"artwork": {
+					"source": "aic",
+					"id": 51130,
+					"title": "Time Unveiling Truth",
+					"artist_display": "Pompeo Girolamo Batoni (Italian, 1708–1787)",
+					"image_id": "39018e31-6200-f4e3-7fc0-17ef919a6723"
+				}
+			}
+		]
+	},
+	{
+		"start": 27.04,
+		"end": 29.26,
+		"text": "Library lovers, get down with the click.",
+		"formattedText": "<span class=\"highlighted\">Library</span> lovers, get down with the click.",
+		"images": [
+			{
+				"word": "Library",
+				"artwork": {
+					"source": "vam",
+					"id": "O747736",
+					"title": "Use your Public Library for Information and Recreation",
+					"artist_display": "Brangwyn, Frank (Sir), 1885-1956",
+					"iiif": "https://framemark.vam.ac.uk/collections/2014HH1043",
+					"width": 518,
+					"height": 768
+				}
+			},
+			{
+				"word": "lovers",
+				"artwork": {
+					"source": "aic",
+					"id": 180709,
+					"title": "The Lovers",
+					"artist_display": "William Powell Frith (English, 1819–1909)",
+					"image_id": "57e7455f-9c4f-7b6d-ffac-6d2269258265"
+				}
+			},
+			{
+				"word": "click",
+				"artwork": {
+					"source": "vam",
+					"id": "O1026383",
+					"title": "Do you really think it can't happen to you? Clunk Click every trip",
+					"artist_display": "Ayers, Peter, 1974",
+					"iiif": "https://framemark.vam.ac.uk/collections/2006AG2297",
+					"width": 768,
+					"height": 254
+				}
+			}
+		]
+	},
+	{
+		"start": 31.66,
+		"end": 32.84,
+		"text": "(uh-huh!) Images so fresh",
+		"formattedText": "(uh-huh!) <span class=\"highlighted\">Images</span> so <span class=\"highlighted\">fresh</span>",
+		"images": [
+			{
+				"word": "Images",
+				"artwork": {
+					"source": "aic",
+					"id": 90048,
+					"title": "Distant View of Niagara Falls",
+					"artist_display": "Thomas Cole (American, born England, 1801–1848)",
+					"image_id": "18092196-50ae-3ff1-9205-1b3110e966c3"
+				}
+			},
+			{
+				"word": "fresh",
+				"artwork": {
+					"source": "vam",
+					"id": "O1823959",
+					"title": "Fresh Airs",
+					"artist_display": "Rogers, Houston, 1955",
+					"iiif": "https://framemark.vam.ac.uk/collections/2026PT5168",
+					"width": 768,
+					"height": 606
+				}
+			}
+		]
+	},
+	{
+		"start": 32.95,
+		"end": 33.95,
+		"text": "They'll make you wanna trip",
+		"formattedText": "They'll make you wanna <span class=\"highlighted\">trip</span>",
+		"images": [
+			{
+				"word": "trip",
+				"artwork": {
+					"source": "aic",
+					"id": 97896,
+					"title": "First and Best Camp of the Trip",
+					"artist_display": "Frederic Remington (American, 1861–1909)",
+					"image_id": "39fd7277-7714-ba0a-7218-7633f7a88923"
+				}
+			}
+		]
+	},
+	{
+		"start": 36.36,
+		"end": 38.35,
+		"text": "Metadata magic it's cookin' up a storm.",
+		"formattedText": "<span class=\"highlighted\">Metadata</span> <span class=\"highlighted\">magic</span> it's <span class=\"highlighted\">cookin'</span> up a storm.",
+		"images": [
+			{
+				"word": "Metadata",
+				"artwork": {
+					"source": "vam",
+					"id": "O1737545",
+					"title": "Selected photographs from 'Myriad (Tulips)'",
+					"artist_display": "Anna Ridler, 2018",
+					"iiif": "https://framemark.vam.ac.uk/collections/2025PF6896",
+					"width": 1297,
+					"height": 2500
+				}
+			},
+			{
+				"word": "magic",
+				"artwork": {
+					"source": "aic",
+					"id": 13694,
+					"title": "Necklace with a Compartment for Magical Texts",
+					"artist_display": "Turkey or Egypt",
+					"image_id": "43535b7c-a43b-ce52-497f-484a0d2aa251"
+				}
+			},
+			{
+				"word": "cookin'",
+				"artwork": {
+					"source": "vam",
+					"id": "O1241266",
+					"title": "George Cooke Album of Caricatures",
+					"artist_display": "Cooke, George, 1916-1924",
+					"iiif": "https://framemark.vam.ac.uk/collections/2011FB9788",
+					"width": 2500,
+					"height": 1821
+				}
+			},
+			{
+				"word": "storm",
+				"artwork": {
+					"source": "aic",
+					"id": 27764,
+					"title": "Approaching Storm",
+					"artist_display": "Eugène-Louis Boudin (French, 1824–1898)",
+					"image_id": "04cb7292-b20b-b313-2c08-19e685b70e7e"
+				}
+			}
+		]
+	},
+	{
+		"start": 40.94,
+		"end": 42.76,
+		"text": "Standardized delight, no need to reform.",
+		"formattedText": "<span class=\"highlighted\">Standardized</span> delight, no <span class=\"highlighted\">need</span> to reform.",
+		"images": [
+			{
+				"word": "Standardized",
+				"artwork": {
+					"source": "vam",
+					"id": "O138841",
+					"title": "\"Blimey! You're still here?!\"",
+					"artist_display": "Richler, Martha (Marf), 2004",
+					"iiif": "https://framemark.vam.ac.uk/collections/2008BV3655",
+					"width": 768,
+					"height": 578
+				}
+			},
+			{
+				"word": "delight",
+				"artwork": {
+					"source": "aic",
+					"id": 7766,
+					"title": "He delights in the ball, plate 10 from Les Banqueteurs",
+					"artist_display": "Honoré Victorin Daumier (French, 1808-1879)\nprinted by Aubert & Cie. (French, active 19th century)",
+					"image_id": "d3ecc731-78a7-7cad-2ab5-dde632d34cd5"
+				}
+			},
+			{
+				"word": "need",
+				"artwork": {
+					"source": "vam",
+					"id": "O1246053",
+					"title": "Sorry you're in need!",
+					"artist_display": "R., R., ca. 1903",
+					"iiif": "https://framemark.vam.ac.uk/collections/2013GU1868",
+					"width": 2500,
+					"height": 1737
+				}
+			}
+		]
+	},
+	{
+		"start": 44.98,
+		"end": 46.59,
+		"text": "IIIF",
+		"formattedText": "IIIF",
+		"images": []
+	},
+	{
+		"start": 46.81,
+		"end": 48.639,
+		"text": "Bringin' life to the vibe",
+		"formattedText": "<span class=\"highlighted\">Bringin'</span> <span class=\"highlighted\">life</span> to the <span class=\"highlighted\">vibe</span>",
+		"images": [
+			{
+				"word": "Bringin'",
+				"artwork": {
+					"source": "aic",
+					"id": 111648,
+					"title": "Peasants Bringing Home a Calf Born in the Fields",
+					"artist_display": "Jean-François Millet (French, 1814–1875)",
+					"image_id": "7b0ea6ca-9424-050e-7e0e-3b67d2289480"
+				}
+			},
+			{
+				"word": "life",
+				"artwork": {
+					"source": "vam",
+					"id": "O1805574",
+					"title": "LIFE Medal",
+					"artist_display": "The Gratitude Bloc, 2025",
+					"iiif": "https://framemark.vam.ac.uk/collections/2025PL0067",
+					"width": 2500,
+					"height": 1875
+				}
+			},
+			{
+				"word": "vibe",
+				"artwork": {
+					"source": "vam",
+					"id": "O1240977",
+					"title": "Blossom",
+					"artist_display": "Natasha Marshall, 2006",
+					"iiif": "https://framemark.vam.ac.uk/collections/2018KV1663",
+					"width": 768,
+					"height": 566
+				}
+			}
+		]
+	},
+	{
+		"start": 48.7,
+		"end": 49.55,
+		"text": "Come on!",
+		"formattedText": "Come on!",
+		"images": []
+	},
+	{
+		"start": 49.55,
+		"end": 51.38,
+		"text": "Universal language",
+		"formattedText": "<span class=\"highlighted\">Universal</span> <span class=\"highlighted\">language</span>",
+		"images": [
+			{
+				"word": "Universal",
+				"artwork": {
+					"source": "vam",
+					"id": "O703452",
+					"title": "Help youth to realise Ambition",
+					"artist_display": "Cox, Elijah Albert, c.1921",
+					"iiif": "https://framemark.vam.ac.uk/collections/2014HH4150",
+					"width": 520,
+					"height": 768
+				}
+			},
+			{
+				"word": "language",
+				"artwork": {
+					"source": "aic",
+					"id": 66575,
+					"title": "Valerian Through Volkamenia, from The Illuminated Language of Flowers",
+					"artist_display": "probably Edmund Evans (English, 1826-1905)\nafter Kate Greenaway (English, 1846-1901)\nprinted by Edmund Evans",
+					"image_id": "76d831b9-5204-aa19-d0e8-d3a6c49355c7"
+				}
+			}
+		]
+	},
+	{
+		"start": 51.5,
+		"end": 53.029,
+		"text": "Let’s ride the tribe",
+		"formattedText": "Let’s <span class=\"highlighted\">ride</span> the <span class=\"highlighted\">tribe</span>",
+		"images": [
+			{
+				"word": "ride",
+				"artwork": {
+					"source": "vam",
+					"id": "O1811777",
+					"title": "Ride! Ride!",
+					"artist_display": "Unknown, 1976",
+					"iiif": "https://framemark.vam.ac.uk/collections/2025PL3473",
+					"width": 498,
+					"height": 768
+				}
+			},
+			{
+				"word": "tribe",
+				"artwork": {
+					"source": "aic",
+					"id": 97909,
+					"title": "Historians of the Tribe",
+					"artist_display": "Frederic Remington (American, 1861–1909)",
+					"image_id": "69364a3b-57ac-ce93-59e4-3aa3c548da49"
+				}
+			}
+		]
+	},
+	{
+		"start": 53.97,
+		"end": 58.909,
+		"text": "Zoomin' in and out, We ain't just readin’ text",
+		"formattedText": "<span class=\"highlighted\">Zoomin'</span> in and out, We ain't just readin’ <span class=\"highlighted\">text</span>",
+		"images": [
+			{
+				"word": "Zoomin'",
+				"artwork": {
+					"source": "vam",
+					"id": "O1781890",
+					"title": "Audio Recorder",
+					"artist_display": "Bowie, David, 2010",
+					"iiif": "https://framemark.vam.ac.uk/collections/2025PG4320",
+					"width": 768,
+					"height": 576
+				}
+			},
+			{
+				"word": "readin'",
+				"artwork": {
+					"source": "aic",
+					"id": 81512,
+					"title": "Interrupted Reading",
+					"artist_display": "Jean-Baptiste-Camille Corot (French, 1796–1875)",
+					"image_id": "1c2d32a7-790c-501a-e124-00f28cf5052d"
+				}
+			},
+			{
+				"word": "text",
+				"artwork": {
+					"source": "vam",
+					"id": "O41655",
+					"title": "Text",
+					"artist_display": "1920-1935",
+					"iiif": "https://framemark.vam.ac.uk/collections/2025PG2645",
+					"width": 768,
+					"height": 614
+				}
+			}
+		]
+	},
+	{
+		"start": 58.91,
+		"end": 61.92,
+		"text": "Visuals so potent. It'll leave you perplexed.",
+		"formattedText": "<span class=\"highlighted\">Visuals</span> so potent. It'll leave you perplexed.",
+		"images": [
+			{
+				"word": "Visuals",
+				"artwork": {
+					"source": "aic",
+					"id": 11144,
+					"title": "Orphrey Band",
+					"artist_display": "Probably England",
+					"image_id": "516d9e71-6e59-1e6d-2db0-f29f3b40dd6c"
+				}
+			}
+		]
+	},
+	{
+		"start": 63.92,
+		"end": 65.219,
+		"text": "Digitize the moment. It's a visual buffet.",
+		"formattedText": "<span class=\"highlighted\">Digitize</span> the moment. It's a <span class=\"highlighted\">visual</span> buffet.",
+		"images": [
+			{
+				"word": "Digitize",
+				"artwork": {
+					"source": "vam",
+					"id": "O102904",
+					"title": "Digital Dawn",
+					"artist_display": "Wingfield, Rachel, 2003",
+					"iiif": "https://framemark.vam.ac.uk/collections/2021NA9550",
+					"width": 464,
+					"height": 768
+				}
+			},
+			{
+				"word": "moment",
+				"artwork": {
+					"source": "aic",
+					"id": 30215,
+					"title": "L'Heureux Moment (The Happy Moment)",
+					"artist_display": "Nicolas Delaunay (French, 1739-1792)\nafter Nicolas Lavreince (Swedish, 1737-1807)",
+					"image_id": "b2d3da15-b4fb-52df-4d5c-bd0d0af796fd"
+				}
+			},
+			{
+				"word": "visual",
+				"artwork": {
+					"source": "vam",
+					"id": "O221392",
+					"title": "Visual Script XI",
+					"artist_display": "Akilesh, 1992",
+					"iiif": "https://framemark.vam.ac.uk/collections/2011EY8827",
+					"width": 576,
+					"height": 768
+				}
+			},
+			{
+				"word": "buffet",
+				"artwork": {
+					"source": "aic",
+					"id": 124145,
+					"title": "Versailles, Grand Trianon (Le Buffet)",
+					"artist_display": "Jean-Eugène-Auguste Atget\nFrench, 1857–1927",
+					"image_id": "0c091ad3-e2ac-0814-c28f-f755075d31b6"
+				}
+			}
+		]
+	},
+	{
+		"start": 66.18,
+		"end": 67.18,
+		"text": "Oh, yeah.",
+		"formattedText": "Oh, yeah.",
+		"images": []
+	},
+	{
+		"start": 67.54,
+		"end": 68.61,
+		"text": "Art and history.",
+		"formattedText": "<span class=\"highlighted\">Art</span> and history.",
+		"images": [
+			{
+				"word": "Art",
+				"artwork": {
+					"source": "vam",
+					"id": "O614042",
+					"title": "Minerva encouraging the Arts",
+					"artist_display": "Charles-Nicolas Cochin, 18th century",
+					"iiif": "https://framemark.vam.ac.uk/collections/2017KJ8854",
+					"width": 2473,
+					"height": 2500
+				}
+			},
+			{
+				"word": "history",
+				"artwork": {
+					"source": "aic",
+					"id": 145681,
+					"title": "Frederick Douglass",
+					"artist_display": "Samuel J. Miller\nAmerican, 1822–1888",
+					"image_id": "68597cf9-01aa-7c1f-1179-d4b8811e1c05"
+				}
+			}
+		]
+	},
+	{
+		"start": 68.61,
+		"end": 69.63,
+		"text": "Comin' out to play.",
+		"formattedText": "<span class=\"highlighted\">Comin'</span> out to play.",
+		"images": [
+			{
+				"word": "Comin'",
+				"artwork": {
+					"source": "vam",
+					"id": "O1109794",
+					"title": "The Coming Footstep",
+					"artist_display": "Marshall, Thomas Falcon, 1847",
+					"iiif": "https://framemark.vam.ac.uk/collections/2023NP8991",
+					"width": 1899,
+					"height": 2500
+				}
+			}
+		]
+	},
+	{
+		"start": 71.73,
+		"end": 72.87,
+		"text": "Interoperability",
+		"formattedText": "Interoperability",
+		"images": []
+	},
+	{
+		"start": 72.87,
+		"end": 73.959,
+		"text": "What a joyful ring",
+		"formattedText": "What a <span class=\"highlighted\">joyful</span> <span class=\"highlighted\">ring</span>",
+		"images": [
+			{
+				"word": "joyful",
+				"artwork": {
+					"source": "vam",
+					"id": "O301419",
+					"title": "Joy Divison: Disorder",
+					"artist_display": "Joy Division, 1979",
+					"iiif": "https://framemark.vam.ac.uk/collections/2014HE4615",
+					"width": 639,
+					"height": 768
+				}
+			},
+			{
+				"word": "ring",
+				"artwork": {
+					"source": "aic",
+					"id": 594,
+					"title": "Ring with a Scarab Bezel",
+					"artist_display": "Egyptian",
+					"image_id": "d9067d6e-e133-705c-cf53-528c035a5201"
+				}
+			}
+		]
+	},
+	{
+		"start": 76.39,
+		"end": 77.37,
+		"text": "Double-tap that image",
+		"formattedText": "Double-tap that <span class=\"highlighted\">image</span>",
+		"images": [
+			{
+				"word": "Double",
+				"artwork": {
+					"source": "vam",
+					"id": "O251579",
+					"title": "Double Bowl",
+					"artist_display": "Momoko Kumai, 2008",
+					"iiif": "https://framemark.vam.ac.uk/collections/2024NY0836",
+					"width": 643,
+					"height": 768
+				}
+			},
+			{
+				"word": "image",
+				"artwork": {
+					"source": "aic",
+					"id": 183283,
+					"title": "Image Design for a Poster, Wagenaar's Cantata 'The Shipwreck'",
+					"artist_display": "Jan Toorop\nDutch, 1858-1928",
+					"image_id": "e0a26a9a-80a8-dcd5-bba5-0fa007375721"
+				}
+			}
+		]
+	},
+	{
+		"start": 77.37,
+		"end": 79.049,
+		"text": "Got the whole world on a string.",
+		"formattedText": "Got the <span class=\"highlighted\">whole</span> <span class=\"highlighted\">world</span> on a string.",
+		"images": [
+			{
+				"word": "whole",
+				"artwork": {
+					"source": "aic",
+					"id": 42138,
+					"title": "Prince Paul Troubetzkoy I (Whole length)",
+					"artist_display": "Anders Zorn\nSwedish, 1860-1920",
+					"image_id": "c3ba53a9-9bdf-2515-7e39-5579124609f7"
+				}
+			},
+			{
+				"word": "world",
+				"artwork": {
+					"source": "vam",
+					"id": "O1155368",
+					"title": "The Crazy World of Arthur Brown",
+					"artist_display": "Hapshash and the Coloured Coat, 1968",
+					"iiif": "https://framemark.vam.ac.uk/collections/2014GY1895",
+					"width": 541,
+					"height": 768
+				}
+			},
+			{
+				"word": "string",
+				"artwork": {
+					"source": "aic",
+					"id": 135058,
+					"title": "String of Beads",
+					"artist_display": "Roman or Byzantine; Egypt",
+					"image_id": "f3ae3f0d-1d57-a896-fe70-e2e65e281d73"
+				}
+			}
+		]
+	},
+	{
+		"start": 81.87,
+		"end": 84.93,
+		"text": "Access for all, No need to stall, Get that high-res flavor",
+		"formattedText": "<span class=\"highlighted\">Access</span> for all, No <span class=\"highlighted\">need</span> to stall, Get that high-res <span class=\"highlighted\">flavor</span>",
+		"images": [
+			{
+				"word": "Access",
+				"artwork": {
+					"source": "vam",
+					"id": "O1803256",
+					"title": "Whole earth catalog: access to tools",
+					"artist_display": "1969",
+					"iiif": "https://framemark.vam.ac.uk/collections/2025PF9865",
+					"width": 590,
+					"height": 768
+				}
+			},
+			{
+				"word": "need",
+				"artwork": {
+					"source": "aic",
+					"id": 51140,
+					"title": "A Pharmacy for Every Need (plate 24)",
+					"artist_display": "Charles Émile Jacque\nFrench, 1813-1894",
+					"image_id": "10f323b2-55d6-a323-1622-9572eb902bbe"
+				}
+			},
+			{
+				"word": "high",
+				"artwork": {
+					"source": "aic",
+					"id": 84551,
+					"title": "Bell Krater (Mixing Bowl)",
+					"artist_display": "Manner of the Niobid Painter\nGreek; Athens",
+					"image_id": "10d782f2-d7e8-4f1d-9779-8302ca35e29e"
+				}
+			},
+			{
+				"word": "res",
+				"artwork": {
+					"source": "vam",
+					"id": "O179045",
+					"title": "Cup and saucer",
+					"artist_display": "Unknown, ca. 1728",
+					"iiif": "https://framemark.vam.ac.uk/collections/2010EA0001",
+					"width": 2500,
+					"height": 1666
+				}
+			},
+			{
+				"word": "flavor",
+				"artwork": {
+					"source": "vam",
+					"id": "O143582",
+					"title": "Wacky Packages",
+					"artist_display": "V.I.P. Fabrics Inc., 1974",
+					"iiif": "https://framemark.vam.ac.uk/collections/2010EF6757",
+					"width": 2500,
+					"height": 2129
+				}
+			}
+		]
+	},
+	{
+		"start": 85.65,
+		"end": 87.06,
+		"text": "Standing ten feet tall.",
+		"formattedText": "Standing ten <span class=\"highlighted\">feet</span> tall.",
+		"images": [
+			{
+				"word": "feet",
+				"artwork": {
+					"source": "vam",
+					"id": "O1059296",
+					"title": "Feet, Frontal",
+					"artist_display": "Coplans, John, 1984",
+					"iiif": "https://framemark.vam.ac.uk/collections/2016JA1993",
+					"width": 576,
+					"height": 768
+				}
+			},
+			{
+				"word": "tall",
+				"artwork": {
+					"source": "aic",
+					"id": 145682,
+					"title": "Tall Case Clock",
+					"artist_display": "Painted by Uriah Dyer (American, 1849–1927)\nWorks by Silas Hoadley (American, 1786–1870)",
+					"image_id": "1e8ec7e1-084c-17af-17de-8bfb524bdc0f"
+				}
+			}
+		]
+	},
+	{
+		"start": 89.71000000000001,
+		"end": 92.14,
+		"text": "Archival dreams They're all in the stream",
+		"formattedText": "<span class=\"highlighted\">Archival</span> dreams They're all in the <span class=\"highlighted\">stream</span>",
+		"images": [
+			{
+				"word": "Archival",
+				"artwork": {
+					"source": "vam",
+					"id": "O1784812",
+					"title": "T-Shirt",
+					"artist_display": "Rock, Mick",
+					"iiif": "https://framemark.vam.ac.uk/collections/2026PU0291",
+					"width": 768,
+					"height": 576
+				}
+			},
+			{
+				"word": "stream",
+				"artwork": {
+					"source": "aic",
+					"id": 16794,
+					"title": "The Gulf Stream",
+					"artist_display": "Winslow Homer\nAmerican, 1836-1910",
+					"image_id": "4a076002-dffe-54e9-5256-0691c3a65c3b"
+				}
+			}
+		]
+	},
+	{
+		"start": 92.97999999999999,
+		"end": 96,
+		"text": "With IIIF Reality’s a meme",
+		"formattedText": "With IIIF Reality’s a <span class=\"highlighted\">meme</span>",
+		"images": [
+			{
+				"word": "Reality",
+				"artwork": {
+					"source": "vam",
+					"id": "O1612463",
+					"title": "Hyper-Reality",
+					"artist_display": "Keiichi Matsuda, 2016",
+					"iiif": "https://framemark.vam.ac.uk/collections/2016JH5112",
+					"width": 768,
+					"height": 432
+				}
+			},
+			{
+				"word": "meme",
+				"artwork": {
+					"source": "vam",
+					"id": "O1241400",
+					"title": "Choker",
+					"artist_display": "Mana, 2005-2011",
+					"iiif": "https://framemark.vam.ac.uk/collections/2012FH2437",
+					"width": 4080,
+					"height": 5440
+				}
+			}
+		]
+	},
+	{
+		"start": 99.53,
+		"end": 102.40899999999999,
+		"text": "I kept bringing light to survive.",
+		"formattedText": "I kept bringing <span class=\"highlighted\">light</span> to survive.",
+		"images": [
+			{
+				"word": "light",
+				"artwork": {
+					"source": "vam",
+					"id": "O1194794",
+					"title": "Hipak range of mercury vapour light fittings",
+					"artist_display": "Dipper, Colin, 1973-1977",
+					"iiif": "https://framemark.vam.ac.uk/collections/2019MA6046",
+					"width": 768,
+					"height": 512
+				}
+			}
+		]
+	},
+	{
+		"start": 102.5,
+		"end": 103.939,
+		"text": "Come on, you children.",
+		"formattedText": "Come on, you children.",
+		"images": [
+			{
+				"word": "children",
+				"artwork": {
+					"source": "aic",
+					"id": 8606,
+					"title": "Peasant Family at a Well",
+					"artist_display": "Master of the Children's Caps (Le Maître aux Béguins; French, 17th century)",
+					"image_id": "8b728f79-4937-4a98-5552-a3419cd6358f"
+				}
+			}
+		]
+	},
+	{
+		"start": 104.21000000000001,
+		"end": 105.21000000000001,
+		"text": "So, language.",
+		"formattedText": "So, language.",
+		"images": [
+			{
+				"word": "language",
+				"artwork": {
+					"source": "vam",
+					"id": "O1662756",
+					"title": "Imaginary Language",
+					"artist_display": "Alessandra Romario, 2018-2019",
+					"iiif": "https://framemark.vam.ac.uk/collections/2024NV7168",
+					"width": 2500,
+					"height": 1874
+				}
+			}
+		]
+	},
+	{
+		"start": 105.35,
+		"end": 106.84899999999999,
+		"text": "Let's rock to try.",
+		"formattedText": "Let's <span class=\"highlighted\">rock</span> to try.",
+		"images": [
+			{
+				"word": "rock",
+				"artwork": {
+					"source": "vam",
+					"id": "O1264236",
+					"title": "Mr Rock as the Irishman",
+					"artist_display": "unknown, 1787",
+					"iiif": "https://framemark.vam.ac.uk/collections/2013GT9813",
+					"width": 1932,
+					"height": 2500
+				}
+			}
+		]
+	},
+	{
+		"start": 107.8,
+		"end": 109.38900000000001,
+		"text": "So read it now.",
+		"formattedText": "So read it now.",
+		"images": []
+	},
+	{
+		"start": 109.74000000000001,
+		"end": 115.839,
+		"text": "We just read the text is, you know, so potent it'll leave you perplexed.",
+		"formattedText": "We just read the <span class=\"highlighted\">text</span> is, you know, so potent it'll leave you perplexed.",
+		"images": [
+			{
+				"word": "text",
+				"artwork": {
+					"source": "aic",
+					"id": 13694,
+					"title": "Necklace with a Compartment for Magical Texts",
+					"artist_display": "Turkey or Egypt",
+					"image_id": "43535b7c-a43b-ce52-497f-484a0d2aa251"
+				}
+			}
+		]
+	},
+	{
+		"start": 126,
+		"end": 127.949,
+		"text": "Step on the meat stall.",
+		"formattedText": "<span class=\"highlighted\">Step</span> on the <span class=\"highlighted\">meat</span> stall.",
+		"images": [
+			{
+				"word": "Step",
+				"artwork": {
+					"source": "aic",
+					"id": 201,
+					"title": "Dipper or Ladle with Interlocking Zigzag and Step-Fret Designs",
+					"artist_display": "Ceramist unknown (Ancestral Puebloan), Black-on-white\nWest-central New Mexico",
+					"image_id": "4bc31ff3-7ee1-5d15-aeca-b563e562afa5"
+				}
+			},
+			{
+				"word": "meat",
+				"artwork": {
+					"source": "vam",
+					"id": "O156702",
+					"title": "Meat dish",
+					"artist_display": "Sprimont, Nicholas, 1743-44",
+					"iiif": "https://framemark.vam.ac.uk/collections/2025PJ3001",
+					"width": 2500,
+					"height": 1876
+				}
+			},
+			{
+				"word": "stall",
+				"artwork": {
+					"source": "aic",
+					"id": 22170,
+					"title": "The Stalled Cart",
+					"artist_display": "Jean-Honoré Fragonard\nFrench, 1732-1806",
+					"image_id": "6d957b7c-5c7f-d916-64b1-2df111cbf90c"
+				}
+			}
+		]
+	},
+	{
+		"start": 128.82,
+		"end": 131.939,
+		"text": "Give that a rest for the steady ten feet tall.",
+		"formattedText": "Give that a <span class=\"highlighted\">rest</span> for the <span class=\"highlighted\">steady</span> ten <span class=\"highlighted\">feet</span> tall.",
+		"images": [
+			{
+				"word": "rest",
+				"artwork": {
+					"source": "vam",
+					"id": "O186666",
+					"title": "Head-rest",
+					"artist_display": "Unknown, c.1550 BC-c.1262 BC",
+					"iiif": "https://framemark.vam.ac.uk/collections/2018LC8510",
+					"width": 2343,
+					"height": 2500
+				}
+			},
+			{
+				"word": "steady",
+				"artwork": {
+					"source": "aic",
+					"id": 113794,
+					"title": "The Descent from the Summit: Jean Martin Steadies Hélène, the Banker’s Daughter (Illustration for Edmond Renoir’s “L’étiquette”) (recto); Half-Length Sketch of a Woman (verso)",
+					"artist_display": "Pierre Auguste Renoir\nFrench, 1841-1919",
+					"image_id": "c2c596be-1fcb-3b2e-7e1a-7116396d4875"
+				}
+			},
+			{
+				"word": "feet",
+				"artwork": {
+					"source": "aic",
+					"id": 153799,
+					"title": "Woman Bathing Her Feet in a Brook",
+					"artist_display": "Camille Pissarro (French, 1830–1903)",
+					"image_id": "5ccaee46-a1a0-5035-821c-0547aa35c070"
+				}
+			},
+			{
+				"word": "tall",
+				"artwork": {
+					"source": "vam",
+					"id": "O1307810",
+					"title": "Tall and Small",
+					"artist_display": "Rebecca de Quin, 2012",
+					"iiif": "https://framemark.vam.ac.uk/collections/2016HY5057",
+					"width": 1875,
+					"height": 2500
+				}
+			}
+		]
+	},
+	{
+		"start": 134.01,
+		"end": 135.42,
+		"text": "Walk out of the trees.",
+		"formattedText": "Walk out of the trees.",
+		"images": [
+			{
+				"word": "trees",
+				"artwork": {
+					"source": "vam",
+					"id": "O1138881",
+					"title": "Miss Tree",
+					"artist_display": "Dean & Munday, 01/10/1821",
+					"iiif": "https://framemark.vam.ac.uk/collections/2010EK1864",
+					"width": 1586,
+					"height": 2500
+				}
+			}
+		]
+	},
+	{
+		"start": 135.6,
+		"end": 137.00900000000001,
+		"text": "They're all in the street.",
+		"formattedText": "They're all in the street.",
+		"images": [
+			{
+				"word": "street",
+				"artwork": {
+					"source": "aic",
+					"id": 20684,
+					"title": "Paris Street; Rainy Day",
+					"artist_display": "Gustave Caillebotte (French, 1848–1894)",
+					"image_id": "f8fd76e9-c396-5678-36ed-6a348c904d27"
+				}
+			}
+		]
+	},
+	{
+		"start": 137.85,
+		"end": 140.849,
+		"text": "Which I have realities of me.",
+		"formattedText": "Which I have <span class=\"highlighted\">realities</span> of me.",
+		"images": [
+			{
+				"word": "realities",
+				"artwork": {
+					"source": "aic",
+					"id": 32472,
+					"title": "Foreign Reflecting-reality Mirror (Ijin shashin kagami no zu)",
+					"artist_display": "Artist unknown\nJapanese",
+					"image_id": "341ea54e-9fc5-7734-b398-bbe1abc9ea37"
+				}
+			}
+		]
+	},
+	{
+		"start": 143.74,
+		"end": 147.279,
+		"text": "So far, it's bringing life to the bar.",
+		"formattedText": "So far, it's bringing <span class=\"highlighted\">life</span> to the bar.",
+		"images": [
+			{
+				"word": "life",
+				"artwork": {
+					"source": "aic",
+					"id": 4714,
+					"title": "Ideal Pastoral Life",
+					"artist_display": "Edward Calvert\nEnglish, 1799-1883",
+					"image_id": "3cb2a7b7-f4ee-8cc8-bb14-1754cf1e8507"
+				}
+			},
+			{
+				"word": "bar",
+				"artwork": {
+					"source": "vam",
+					"id": "O480489",
+					"title": "Bar",
+					"artist_display": "Unknown, ca. 1851",
+					"iiif": "https://framemark.vam.ac.uk/collections/2016JF4808",
+					"width": 1791,
+					"height": 2500
+				}
+			}
+		]
+	},
+	{
+		"start": 147.43,
+		"end": 148.21,
+		"text": "Come on.",
+		"formattedText": "Come on.",
+		"images": []
+	},
+	{
+		"start": 148.21,
+		"end": 150.039,
+		"text": "You are the sole language.",
+		"formattedText": "You are the <span class=\"highlighted\">sole</span> language.",
+		"images": [
+			{
+				"word": "sole",
+				"artwork": {
+					"source": "aic",
+					"id": 124987,
+					"title": "Sole Valley",
+					"artist_display": "Louis Auguste Lepère (French, 1849-1918)\npublished by A. Desmoulins (French, active c. 1908-1910)",
+					"image_id": "47657c08-fbbc-62de-81d3-3510c2190656"
+				}
+			},
+			{
+				"word": "language",
+				"artwork": {
+					"source": "aic",
+					"id": 66572,
+					"title": "Decorative Illustration, from The Illuminated Language of Flowers",
+					"artist_display": "probably Edmund Evans (English, 1826-1905)\nafter Kate Greenaway (English, 1846-1901)\nprinted by Edmund Evans",
+					"image_id": "699757fe-6527-61e6-f374-0dc2dff45c08"
+				}
+			}
+		]
+	},
+	{
+		"start": 150.22,
+		"end": 150.54,
+		"text": "Let's.",
+		"formattedText": "Let's.",
+		"images": []
+	},
+	{
+		"start": 150.54,
+		"end": 151.29,
+		"text": "Right.",
+		"formattedText": "Right.",
+		"images": [
+			{
+				"word": "Right",
+				"artwork": {
+					"source": "vam",
+					"id": "O120749",
+					"title": "Right Hand",
+					"artist_display": "Unknown, 4th century",
+					"iiif": "https://framemark.vam.ac.uk/collections/2018LC8505",
+					"width": 2500,
+					"height": 2177
+				}
+			}
+		]
+	},
+	{
+		"start": 151.29,
+		"end": 152.29,
+		"text": "Try.",
+		"formattedText": "Try.",
+		"images": []
+	},
+	{
+		"start": 152.61,
+		"end": 157.85,
+		"text": "So maybe now we just read sex fiction.",
+		"formattedText": "So maybe now we just read <span class=\"highlighted\">sex</span> fiction.",
+		"images": [
+			{
+				"word": "sex",
+				"artwork": {
+					"source": "aic",
+					"id": 86208,
+					"title": "Handle Spout Vessel Depicting Anal Sex",
+					"artist_display": "Moche\nNorth coast, Peru",
+					"image_id": "f2baf1ce-b1df-c043-61e5-f42e0720e45c"
+				}
+			},
+			{
+				"word": "fiction",
+				"artwork": {
+					"source": "vam",
+					"id": "O1036908",
+					"title": "Science Fiction Landscape",
+					"artist_display": "Butler, Reg, 1957",
+					"iiif": "https://framemark.vam.ac.uk/collections/2018LH5015",
+					"width": 768,
+					"height": 618
+				}
+			}
+		]
+	},
+	{
+		"start": 158.04,
+		"end": 160.679,
+		"text": "Supposedly you published.",
+		"formattedText": "Supposedly you published.",
+		"images": []
+	},
+	{
+		"start": 169.26,
+		"end": 170.26,
+		"text": "Come on, come on.",
+		"formattedText": "Come on, come on.",
+		"images": []
+	},
+	{
+		"start": 183.27,
+		"end": 184.27,
+		"text": "Come on.",
+		"formattedText": "Come on.",
+		"images": []
+	}
+]

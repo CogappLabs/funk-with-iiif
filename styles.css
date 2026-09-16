@@ -1,82 +1,207 @@
-html, body {
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-}
-
-body {
-  width: 100vw;
-  height: 100vh;
+:root {
+  --floor-bg: #07000f;
+  --tile-bg: #180a2c;
+  --flash: #ff2fb9;
 }
 
 * {
   box-sizing: border-box;
 }
 
-#play-button {
-  position: absolute;
-  inset: 0;
-  font-size: 2rem;
-  background: pink;
-  border: 0;
-  cursor: pointer;
-  z-index: 1;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: var(--floor-bg);
+  color: white;
+}
+
+body {
+  width: 100vw;
+  height: 100dvh;
 }
 
 .honk-wonk {
   font-family: "Honk", system-ui;
-  font-size: 4rem;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
 }
 
-.highlighted {
-  background-color: violet;
+#play-button {
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  border: 0;
+  cursor: pointer;
+  font-family: "Honk", system-ui;
+  font-size: clamp(2rem, 9vw, 7rem);
+  color: white;
+  background: radial-gradient(circle at 50% 45%, #ff2fb9, #5c00a3 45%, #07000f 100%);
+  background-size: 140% 140%;
+  animation: driftBackground 8s ease-in-out infinite alternate;
 }
 
-.container {
+#play-button:disabled {
+  cursor: progress;
+}
+
+@keyframes driftBackground {
+  from {
+    background-position: 0% 0%;
+  }
+
+  to {
+    background-position: 100% 100%;
+  }
+}
+
+.stage {
+  position: relative;
   width: 100%;
   height: 100%;
-  padding: 1rem 0 0;
-  background: pink;
-  display: flex;
-  flex-direction: column;
 }
 
-.audio-container {
-  width: 100%;
-  flex-basis: 6rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.discofloor {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: repeat(var(--cols, 6), 1fr);
+  grid-template-rows: repeat(var(--rows, 4), 1fr);
+  gap: 3px;
+  padding: 3px;
+  background: var(--floor-bg);
 }
 
-.visualizer {
-  flex: 1;
-  flex-basis: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.tile {
   position: relative;
-  background: peachpuff;
   overflow: hidden;
+  background: var(--tile-bg);
+  transition: background-color 90ms linear, box-shadow 90ms linear;
+}
+
+.tile.lit {
+  background-color: var(--flash);
+  box-shadow: 0 0 2.5rem color-mix(in srgb, var(--flash) 70%, transparent);
+}
+
+/* Tints whatever artwork is on the tile without washing it out. */
+.tile::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--flash);
+  mix-blend-mode: screen;
+  opacity: 0;
+  transition: opacity 90ms linear;
+  pointer-events: none;
+}
+
+.tile.lit::after {
+  opacity: 0.32;
+}
+
+.tile-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation: dropIn 220ms cubic-bezier(0.2, 1.6, 0.4, 1);
+}
+
+.tile-image.leaving {
+  animation: dropOut 320ms ease-in forwards;
+}
+
+/* Sits over the colour tile and lifts whenever the tile is lit. */
+.tile-image--gray {
+  transition: opacity 90ms linear;
+}
+
+.tile-image--gray:not(.leaving) {
+  animation: none;
+}
+
+.tile.lit .tile-image--gray {
+  opacity: 0;
+}
+
+@keyframes dropIn {
+  from {
+    opacity: 0;
+    transform: scale(0.3) rotate(-8deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes dropOut {
+  to {
+    opacity: 0;
+    transform: scale(1.4);
+  }
 }
 
 .lyrics {
-  flex: 1;
-  width: 100%;
-  flex-basis: 6rem;
-  padding: 1rem;
-  background: white;
+  position: absolute;
+  inset: auto 0 0;
+  z-index: 1;
+  margin: 0;
+  padding: 1rem 2rem 2.5rem;
+  font-size: clamp(1.75rem, 5vw, 4rem);
+  line-height: 1.1;
   text-align: center;
+  text-shadow: 0 0 1.5rem rgb(0 0 0 / 0.9);
+  background: linear-gradient(to top, rgb(7 0 15 / 0.85), transparent);
+  pointer-events: none;
 }
 
-/* throbbing */
-.throbbing {
-  width: 600px;
-  height: 400px;
+.highlighted {
+  color: #ffe600;
+}
+
+.credit {
   position: absolute;
-  object-fit: contain;
+  inset: 1rem 1rem auto;
+  z-index: 1;
+  margin: 0;
+  max-width: 44ch;
+  font: 0.95rem/1.35 system-ui, sans-serif;
+  opacity: 0;
+  text-shadow: 0 0 0.75rem rgb(0 0 0 / 0.9);
+  pointer-events: none;
+}
+
+.credit-title {
+  display: block;
+  font-family: "Honk", system-ui;
+  font-size: 1.6rem;
+}
+
+.audio-player {
+  position: fixed;
+  inset: auto auto 0.5rem 0.5rem;
+  z-index: 1;
+  width: min(20rem, 50vw);
+  opacity: 0.25;
+  transition: opacity 200ms;
+}
+
+.audio-player:hover,
+.audio-player:focus-within {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .tile,
+  .tile-image,
+  #play-button {
+    animation: none;
+    transition: none;
+  }
 }

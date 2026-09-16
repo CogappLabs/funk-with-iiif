@@ -7,21 +7,22 @@
   <title>Funk With IIIF</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://framemark.vam.ac.uk" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <button id="play-button" type="button">Play</button>
-  <div class="container">
-    <div class="audio-container">
-      <audio class="audio-player" controls src="./iiif.mp3"></audio>
-    </div>
-    <div class="visualizer"></div>
-    <div class="lyrics honk-wonk"></div>
-    <div id="waveform"></div>
-  </div>
+  <button id="play-button" type="button">
+    <span class="play-label">Play</span>
+  </button>
 
-  <div id="test" class="throbber"></div>
+  <main class="stage">
+    <div class="discofloor"></div>
+    <p class="lyrics honk-wonk"></p>
+    <p class="credit"></p>
+  </main>
+
+  <audio class="audio-player" controls src="./iiif.mp3"></audio>
 
   <script src="src/main.js" type="module"></script>
 </body>

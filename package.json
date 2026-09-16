@@ -7,7 +7,9 @@
 		"dev": "vite",
 		"build": "vite build",
 		"build:github": "vite build --mode=github",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"fetch:artworks": "node scripts/fetch-artworks.mjs",
+		"fetch:tiles": "node scripts/fetch-tiles.mjs"
 	},
 	"dependencies": {
 		"audiomotion-analyzer": "^4.5.0",
