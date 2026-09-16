@@ -1,9 +1,9 @@
 import "../styles.css";
 import { analyseTempo } from "./audio";
 import { createBeatClock } from "./beat";
-import { createDiscoFloor, preloadArtworks } from "./discofloor";
+import { FILL_BEATS, createDiscoFloor, preloadArtworks } from "./discofloor";
 import { getRandomMusicEmojis } from "./emoji";
-import { artworks, cueAt, liveArtworks, localArtworks, lyrics } from "./lyrics";
+import { artworks, cueAt, liveArtworks, localArtworks, lyrics, nextCueAfter } from "./lyrics";
 
 const audioElement = document.querySelector(".audio-player");
 const lyricsContainer = document.querySelector(".lyrics");
@@ -39,6 +39,13 @@ function randomLiveArtwork() {
 	return liveArtworks[Math.floor(Math.random() * liveArtworks.length)];
 }
 
+/** Beats of silence before the next line, or infinity after the last one. */
+function beatsUntilNextCue() {
+	const time = audioElement.currentTime;
+	const next = nextCueAfter(time);
+	return next ? ((next.start - time) * 1000) / clock.beatDuration : Infinity;
+}
+
 /** Names the artwork that just landed, then fades out over a few bars. */
 function showCredit(artwork) {
 	creditElement.replaceChildren();
@@ -66,6 +73,12 @@ function scheduleCue(cue) {
 
 	if (!cue.images.length) return;
 
+	const live = cue.images.find(({ artwork }) => artwork.source === "vam");
+	if (cue.effect && live) {
+		floor.placeLive(live.artwork, cue.effect);
+		return;
+	}
+
 	const step = ((cue.end - cue.start) / cue.images.length) * 1000;
 
 	pendingDrops = cue.images.map(({ artwork }, index) => setTimeout(() => drop(artwork), index * step));
@@ -78,7 +91,11 @@ clock.onBeat((beat) => {
 		lyricsContainer.textContent = getRandomMusicEmojis().join(" ");
 	}
 
-	if (!currentCue && beat % 4 === 0 && liveArtworks.length) {
+	if (currentCue || floor.building() || !liveArtworks.length) return;
+
+	if (beatsUntilNextCue() >= FILL_BEATS) {
+		floor.placeLive(randomLiveArtwork(), "fill");
+	} else if (beat % 4 === 0) {
 		floor.placeLive(randomLiveArtwork());
 	}
 });

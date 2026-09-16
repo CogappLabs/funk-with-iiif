@@ -58,10 +58,32 @@ function pickShape(grid) {
 	return weightedPick(fitting.map((shape) => [shape, shape.weight]));
 }
 
+/** Cuts a region of the artwork into cells that match a block of tiles. */
+function mosaicTiles(artwork, { cols, rows }, tileAspect = 1) {
+	const region = centredRegion(artwork, (cols * tileAspect) / rows);
+	const cellWidth = region.width / cols;
+	const cellHeight = region.height / rows;
+	const tiles = [];
+
+	for (let row = 0; row < rows; row++) {
+		for (let col = 0; col < cols; col++) {
+			const cell = {
+				x: Math.round(region.x + col * cellWidth),
+				y: Math.round(region.y + row * cellHeight),
+				width: Math.round(cellWidth),
+				height: Math.round(cellHeight),
+			};
+			tiles.push({ frames: [iiifURL(artwork.iiif, { region: pixelRegion(cell) })] });
+		}
+	}
+
+	return tiles;
+}
+
 /**
  * Each effect describes a block of tiles in row-major order. Every tile lists
  * the frames it steps through on the beat, plus an optional gray layer shown
- * while the tile is unlit.
+ * while the tile is unlit. A plan with `reveal` lands one cell at a time.
  */
 const EFFECTS = {
 	single(artwork) {
@@ -70,25 +92,20 @@ const EFFECTS = {
 
 	/** Cuts the artwork into a grid of cells and reassembles it across a block. */
 	mosaic(artwork, grid) {
-		const { cols, rows } = pickShape(grid);
-		const region = centredRegion(artwork, cols / rows);
-		const cellWidth = region.width / cols;
-		const cellHeight = region.height / rows;
-		const tiles = [];
+		const shape = pickShape(grid);
+		return { block: shape, tiles: mosaicTiles(artwork, shape, grid.tileAspect) };
+	},
 
-		for (let row = 0; row < rows; row++) {
-			for (let col = 0; col < cols; col++) {
-				const cell = {
-					x: Math.round(region.x + col * cellWidth),
-					y: Math.round(region.y + row * cellHeight),
-					width: Math.round(cellWidth),
-					height: Math.round(cellHeight),
-				};
-				tiles.push({ frames: [iiifURL(artwork.iiif, { region: pixelRegion(cell) })] });
-			}
-		}
+	/** A mosaic laid down one cell per beat, held, then peeled away. */
+	build(artwork, grid) {
+		const shape = pickShape(grid);
+		return { block: shape, tiles: mosaicTiles(artwork, shape, grid.tileAspect), reveal: true };
+	},
 
-		return { block: { cols, rows }, tiles };
+	/** Builds the artwork across the whole floor. */
+	fill(artwork, grid) {
+		const shape = { cols: grid.cols, rows: grid.rows };
+		return { block: shape, tiles: mosaicTiles(artwork, shape, grid.tileAspect), reveal: true };
 	},
 
 	/** Punches in towards the centre one beat at a time. */
@@ -119,7 +136,7 @@ const EFFECTS = {
 	},
 };
 
-const EFFECT_WEIGHTS = { single: 2, mosaic: 5, zoom: 2, strobe: 2 };
+const EFFECT_WEIGHTS = { single: 2, mosaic: 4, build: 3, zoom: 2, strobe: 2 };
 
 export function pickEffect() {
 	return weightedPick(Object.entries(EFFECT_WEIGHTS));
@@ -127,7 +144,7 @@ export function pickEffect() {
 
 /**
  * @param {Object} artwork
- * @param {{cols: number, rows: number}} grid the floor's current tile grid
+ * @param {{cols: number, rows: number, tileAspect: number}} grid the floor's current tile grid
  * @param {string} [name]
  */
 export function planEffect(artwork, grid, name = pickEffect()) {

@@ -114,6 +114,11 @@ body {
   animation: dropOut 320ms ease-in forwards;
 }
 
+/* One cell of a picture being laid across several tiles. */
+.tile-image--cell {
+  animation: cellIn 180ms ease-out;
+}
+
 /* Sits over the colour tile and lifts whenever the tile is lit. */
 .tile-image--gray {
   transition: opacity 90ms linear;
@@ -136,6 +141,13 @@ body {
   to {
     opacity: 1;
     transform: scale(1);
+  }
+}
+
+@keyframes cellIn {
+  from {
+    opacity: 0;
+    transform: scale(0.85);
   }
 }
 
